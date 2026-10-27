@@ -7,7 +7,7 @@ Yêu cầu: PHP 8.0+, Laravel 9 – 13.
 ## Cài đặt
 
 ```bash
-composer require tino/laravel-tinopay
+composer require tinovn/laravel-tinopay
 ```
 
 Chưa đưa lên Packagist thì khai báo repository dạng path hoặc VCS trong `composer.json` của ứng dụng:
