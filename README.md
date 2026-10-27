@@ -35,7 +35,7 @@ php artisan vendor:publish --tag="tinopay-config"
 return [
     'webhook_token' => env('TINOPAY_WEBHOOK_TOKEN'),
     'pattern' => env('TINOPAY_MATCH_PATTERN', 'TP'),
-    'url' => env('TINOPAY_URL', 'https://pay.tino.vn'),
+    'url' => env('TINOPAY_URL', 'https://ipn.pay.tino.vn'),
     'api_token' => env('TINOPAY_API_TOKEN'),
     'qr_template' => env('TINOPAY_QR_TEMPLATE', 'default'),
 ];

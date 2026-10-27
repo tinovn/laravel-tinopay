@@ -61,6 +61,6 @@ class TinoPay
 
     private function baseUrl(): string
     {
-        return rtrim((string) config('tinopay.url') ?: 'https://pay.tino.vn', '/');
+        return rtrim((string) config('tinopay.url') ?: 'https://ipn.pay.tino.vn', '/');
     }
 }

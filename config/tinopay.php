@@ -16,7 +16,7 @@ return [
     /*
      * Địa chỉ TinoPay (hoặc proxy của tino.vn) dùng cho ảnh QR, danh sách ngân hàng và API giao dịch.
      */
-    'url' => env('TINOPAY_URL', 'https://pay.tino.vn'),
+    'url' => env('TINOPAY_URL', 'https://ipn.pay.tino.vn'),
 
     /*
      * API Token (Tích hợp → API Token) để gọi GET /api/transactions.
