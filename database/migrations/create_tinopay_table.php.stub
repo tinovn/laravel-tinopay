@@ -1,0 +1,31 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('tinopay_transactions', function (Blueprint $table) {
+            $table->id();
+            $table->string('transaction_id')->unique();
+            $table->string('gateway');
+            $table->string('transactionDate');
+            $table->string('accountNumber');
+            $table->string('virtualAccount')->nullable();
+            $table->string('code')->nullable();
+            $table->string('content', 1000);
+            $table->string('transferType');
+            $table->bigInteger('transferAmount');
+            $table->string('referenceCode')->nullable();
+            $table->timestamps();
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('tinopay_transactions');
+    }
+};
