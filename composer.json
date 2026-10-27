@@ -1,5 +1,5 @@
 {
-    "name": "tino/laravel-tinopay",
+    "name": "tinovn/laravel-tinopay",
     "description": "Laravel Package cho TinoPay - Tự động xác nhận thanh toán chuyển khoản ngân hàng",
     "keywords": [
         "TinoPay",
