@@ -6,7 +6,7 @@
         "laravel",
         "laravel-tinopay"
     ],
-    "homepage": "https://pay.tino.vn",
+    "homepage": "https://github.com/tinovn/laravel-tinopay",
     "license": "MIT",
     "authors": [
         {
